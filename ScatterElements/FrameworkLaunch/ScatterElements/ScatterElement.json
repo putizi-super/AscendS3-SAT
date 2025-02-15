@@ -1,0 +1,65 @@
+
+{
+    "op_type": "ScatterElements",
+    "data_script": "",
+    "gen_data": false,
+    "inputs": [
+        {
+         "name": "var",
+         "index": 0,
+         "dtype": "float16",
+         "format": "ND",
+         "ignore": false,
+         "shape": [64],
+         "paramType": "required",
+         "data_file": "/root/zhanghao/ScatterElements/FrameworkLaunch/AclNNInvocation/input/input_data.bin"
+        },
+        {
+         "name": "indices",
+         "index": 1,
+         "dtype": "int32",
+         "format": "ND",
+         "ignore": false,
+         "shape": [32],
+         "paramType": "required",
+         "data_file": "/root/zhanghao/ScatterElements/FrameworkLaunch/AclNNInvocation/input/input_indices.bin"
+        },
+        {
+         "name": "updates",
+         "index": 2,    
+         "dtype": "float16",
+         "format": "ND",
+         "ignore": false,
+         "shape": [32],
+         "paramType": "required",
+         "data_file": "/root/zhanghao/ScatterElements/FrameworkLaunch/AclNNInvocation/input/input_updates.bin"
+        }
+       ],
+       "outputs": [
+        {
+            "name": "var",
+            "index": 0,
+            "dtype": "float16",
+            "format": "ND",
+            "ignore": false,
+            "shape": [64],
+            "paramType": "required",
+            "data_file": "/root/zhanghao/ScatterElements/FrameworkLaunch/AclNNInvocation/output/golden.bin"
+           }
+       ],
+       "attrs": [
+        {
+         "name": "axis",
+         "paramType": "optional",
+         "dtype": "int",
+         "value": 0
+        },
+        {
+         "name": "reduce",
+         "paramType": "optional",
+         "dtype": "string",
+         "value": "add"
+        }
+       ]
+}
+

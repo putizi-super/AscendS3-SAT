@@ -1,0 +1,48 @@
+{
+  "Div": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=0,p=0/3,2/3,2/3,2",
+        "binPath": "ascend310b/div/Div_b1df8ea769386640e60dc802a3814dae.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=1,p=0/3,2/3,2/3,2",
+        "binPath": "ascend310b/div/Div_b1df8ea769386640e60dc802a3814dae.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=0,p=0/1,2/1,2/1,2",
+        "binPath": "ascend310b/div/Div_b358f972ebfc84543602b83749c13265.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=1,p=0/1,2/1,2/1,2",
+        "binPath": "ascend310b/div/Div_b358f972ebfc84543602b83749c13265.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=0,p=0/2,2/2,2/2,2",
+        "binPath": "ascend310b/div/Div_5116c9ee4d0642fa1e2808937c833487.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=1,p=0/2,2/2,2/2,2",
+        "binPath": "ascend310b/div/Div_5116c9ee4d0642fa1e2808937c833487.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=0,p=0/0,2/0,2/0,2",
+        "binPath": "ascend310b/div/Div_f9fa6ffa70311ea97a196e04d1026de6.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Div/d=1,p=0/0,2/0,2/0,2",
+        "binPath": "ascend310b/div/Div_f9fa6ffa70311ea97a196e04d1026de6.o"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"op":"SoftMax",
+		"input_desc":[
+			{
+				"name":"x",
+				"format":"ND",
+				"type":"float32",
+				"param_type":"required"
+			}
+		],
+		"output_desc":[
+			{
+				"name":"y",
+				"format":"ND",
+				"type":"float32",
+				"param_type":"required"
+			}
+		],
+		"attr":[
+			{
+				"name":"dim",
+				"type":"int",
+				"default_value":-1,
+				"param_type":"optional"
+			}
+		]
+	}
+]

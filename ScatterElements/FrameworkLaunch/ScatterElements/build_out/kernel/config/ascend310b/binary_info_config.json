@@ -1,0 +1,84 @@
+{
+  "ScatterElements": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "var",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "indices",
+          "index": 1,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "updates",
+          "index": 2,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [],
+      "attrs": [
+        {
+          "name": "axis"
+        },
+        {
+          "name": "reduce"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ScatterElements/d=0,p=1/1,2/3,2/1,2",
+          "ScatterElements/d=0,p=0/1,2/3,2/1,2",
+          "ScatterElements/d=1,p=1/1,2/3,2/1,2",
+          "ScatterElements/d=1,p=0/1,2/3,2/1,2"
+        ],
+        "binPath": "ascend310b/scatter_elements/ScatterElements_123fa69a2d30069aa57234810648e025.o",
+        "jsonPath": "ascend310b/scatter_elements/ScatterElements_123fa69a2d30069aa57234810648e025.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ScatterElements/d=0,p=1/3,2/3,2/3,2",
+          "ScatterElements/d=0,p=0/3,2/3,2/3,2",
+          "ScatterElements/d=1,p=1/3,2/3,2/3,2",
+          "ScatterElements/d=1,p=0/3,2/3,2/3,2"
+        ],
+        "binPath": "ascend310b/scatter_elements/ScatterElements_2c6c0079c0086a215e490a74885547e6.o",
+        "jsonPath": "ascend310b/scatter_elements/ScatterElements_2c6c0079c0086a215e490a74885547e6.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ScatterElements/d=0,p=1/0,2/3,2/0,2",
+          "ScatterElements/d=0,p=0/0,2/3,2/0,2",
+          "ScatterElements/d=1,p=1/0,2/3,2/0,2",
+          "ScatterElements/d=1,p=0/0,2/3,2/0,2"
+        ],
+        "binPath": "ascend310b/scatter_elements/ScatterElements_9a5c1e8f4ac32c64008135a5fc8a5d56.o",
+        "jsonPath": "ascend310b/scatter_elements/ScatterElements_9a5c1e8f4ac32c64008135a5fc8a5d56.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ScatterElements/d=0,p=1/4,2/3,2/4,2",
+          "ScatterElements/d=0,p=0/4,2/3,2/4,2",
+          "ScatterElements/d=1,p=1/4,2/3,2/4,2",
+          "ScatterElements/d=1,p=0/4,2/3,2/4,2"
+        ],
+        "binPath": "ascend310b/scatter_elements/ScatterElements_d8a53a6405959e2ed94ad2e0e92ceacf.o",
+        "jsonPath": "ascend310b/scatter_elements/ScatterElements_d8a53a6405959e2ed94ad2e0e92ceacf.json"
+      }
+    ]
+  }
+}

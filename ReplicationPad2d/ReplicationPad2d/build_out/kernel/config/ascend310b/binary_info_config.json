@@ -1,0 +1,55 @@
+{
+  "ReplicationPad2d": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "paddings",
+          "index": 1,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ReplicationPad2d/d=0,p=1/1,2/3,2/1,2",
+          "ReplicationPad2d/d=0,p=0/1,2/3,2/1,2",
+          "ReplicationPad2d/d=1,p=1/1,2/3,2/1,2",
+          "ReplicationPad2d/d=1,p=0/1,2/3,2/1,2"
+        ],
+        "binPath": "ascend310b/replication_pad2d/ReplicationPad2d_64998503d8389c22f51943779298c934.o",
+        "jsonPath": "ascend310b/replication_pad2d/ReplicationPad2d_64998503d8389c22f51943779298c934.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "ReplicationPad2d/d=0,p=1/0,2/3,2/0,2",
+          "ReplicationPad2d/d=0,p=0/0,2/3,2/0,2",
+          "ReplicationPad2d/d=1,p=1/0,2/3,2/0,2",
+          "ReplicationPad2d/d=1,p=0/0,2/3,2/0,2"
+        ],
+        "binPath": "ascend310b/replication_pad2d/ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55.o",
+        "jsonPath": "ascend310b/replication_pad2d/ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55.json"
+      }
+    ]
+  }
+}

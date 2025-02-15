@@ -1,0 +1,67 @@
+{
+  "NonMaxSuppression": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "boxes",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "scores",
+          "index": 1,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "max_output_boxes_per_class",
+          "index": 2,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "iou_threshold",
+          "index": 3,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "score_threshold",
+          "index": 4,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "selected_indices",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "center_point_box"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "NonMaxSuppression/d=0,p=1/0,2/0,2/3,2/0,2/0,2/3,2",
+          "NonMaxSuppression/d=0,p=0/0,2/0,2/3,2/0,2/0,2/3,2",
+          "NonMaxSuppression/d=1,p=1/0,2/0,2/3,2/0,2/0,2/3,2",
+          "NonMaxSuppression/d=1,p=0/0,2/0,2/3,2/0,2/0,2/3,2"
+        ],
+        "binPath": "ascend310b/non_max_suppression/NonMaxSuppression_e8014c2fcd1a515e6a5c3226d4faf52f.o",
+        "jsonPath": "ascend310b/non_max_suppression/NonMaxSuppression_e8014c2fcd1a515e6a5c3226d4faf52f.json"
+      }
+    ]
+  }
+}

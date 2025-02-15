@@ -1,0 +1,98 @@
+{
+ "binFileName": "ScatterElements_9a5c1e8f4ac32c64008135a5fc8a5d56",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "kernelName": "ScatterElements_9a5c1e8f4ac32c64008135a5fc8a5d56",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 824,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "87d4c4b474bc7ab164ea04a21c050ef7d3b540bd7cf25d06a9ba109bb24db868",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ScatterElements_9a5c1e8f4ac32c64008135a5fc8a5d56_0"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ScatterElements/d=0,p=1/0,2/3,2/0,2",
+   "ScatterElements/d=0,p=0/0,2/3,2/0,2",
+   "ScatterElements/d=1,p=1/0,2/3,2/0,2",
+   "ScatterElements/d=1,p=0/0,2/3,2/0,2"
+  ],
+  "staticKey": "68946226d3d18e65658216b0016557c968e7ba9d1fffb06fded3169d5572058d,ed24350d1a3b3dd1ffeb85c5abce3e9d9c7ac90dbefe02e151250681530d5656",
+  "inputs": [
+   {
+    "name": "var",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "indices",
+    "index": 1,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "updates",
+    "index": 2,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [],
+  "attrs": [
+   {
+    "name": "axis",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "reduce",
+    "dtype": "str",
+    "value": ""
+   }
+  ],
+  "opMode": "dynamic",
+  "optionalInputMode": "gen_placeholder",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310b/bin/scatter_elements/ScatterElements_9a5c1e8f4ac32c64008135a5fc8a5d56.json"
+}

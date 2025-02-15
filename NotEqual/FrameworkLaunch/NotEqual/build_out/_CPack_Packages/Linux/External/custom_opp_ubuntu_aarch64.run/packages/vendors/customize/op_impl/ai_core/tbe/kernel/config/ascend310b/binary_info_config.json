@@ -1,0 +1,48 @@
+{
+  "NotEqual": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=0,p=0/3,2/3,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_2120fcc04c6b69eacdac7a18462f18d7.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=1,p=0/3,2/3,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_2120fcc04c6b69eacdac7a18462f18d7.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=0,p=0/0,2/0,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_dc606b12f4fa9412a691f2568bd71cab.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=1,p=0/0,2/0,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_dc606b12f4fa9412a691f2568bd71cab.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=0,p=0/2,2/2,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_2e5c9109bcb0c983b75f7cce0cfede47.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=1,p=0/2,2/2,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_2e5c9109bcb0c983b75f7cce0cfede47.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=0,p=0/1,2/1,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_2799cbb2df8b9381fa04afc3705605d3.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "NotEqual/d=1,p=0/1,2/1,2/12,2",
+        "binPath": "ascend310b/not_equal/NotEqual_2799cbb2df8b9381fa04afc3705605d3.o"
+      }
+    ]
+  }
+}

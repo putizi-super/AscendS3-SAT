@@ -1,0 +1,36 @@
+{
+    "op_type": "NotEqual",
+    "data_script": "",
+    "gen_data": false,
+    "inputs": [
+        {
+            "name": "x1",
+            "dtype": "int8",
+            "format": "ND",
+            "ignore": false,
+            "shape": [1024,1024],
+            "param_type": "required",
+            "data_file": "/root/zhanghao/NotEqual/FrameworkLaunch/AclNNInvocation/input/input_x.bin"
+        },
+        {
+            "name": "x2",
+            "dtype": "int8",
+            "format": "ND",
+            "ignore": false,
+            "shape": [1024,1024],
+            "param_type": "required",
+            "data_file": "/root/zhanghao/NotEqual/FrameworkLaunch/AclNNInvocation/input/input_y.bin"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "y",
+            "dtype": "bool",
+            "format": "ND",
+            "ignore": false,
+            "shape": [1024,1024],
+            "param_type": "required",
+            "data_file": "/root/zhanghao/NotEqual/FrameworkLaunch/AclNNInvocation/output/golden.bin"
+        }
+    ]
+}

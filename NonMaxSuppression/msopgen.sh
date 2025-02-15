@@ -1,0 +1,1 @@
+msopgen gen -i ./NonMaxSuppression.json -f tf -c ai_core-Ascend310B1 -out ./NonMaxSuppression -lan cpp

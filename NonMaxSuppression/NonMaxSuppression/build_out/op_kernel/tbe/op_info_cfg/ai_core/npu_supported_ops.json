@@ -1,0 +1,6 @@
+{
+  "NonMaxSuppression": {
+    "isGray": false,
+    "isHeavy": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "op_type": "ScatterElements",
+  "op_list": [
+    {
+      "bin_filename": "ScatterElements_d8a53a6405959e2ed94ad2e0e92ceacf",
+      "inputs": [
+        {
+          "name": "var",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "indices",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "updates",
+          "index": 2,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [],
+      "attrs": [
+        {
+          "name": "axis",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "reduce",
+          "dtype": "str",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

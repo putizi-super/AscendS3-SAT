@@ -1,0 +1,132 @@
+{
+ "binFileName": "NonMaxSuppression_e8014c2fcd1a515e6a5c3226d4faf52f",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "kernelName": "NonMaxSuppression_e8014c2fcd1a515e6a5c3226d4faf52f",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 24,
+ "parameters": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "0d74813cdd610a233d5d0e67a54ceada3344eef0587dedbcec3a834e42313dc3",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "NonMaxSuppression_e8014c2fcd1a515e6a5c3226d4faf52f_0"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "debugOptions": "printf",
+ "debugBufSize": 78643200,
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "NonMaxSuppression/d=0,p=1/0,2/0,2/3,2/0,2/0,2/3,2",
+   "NonMaxSuppression/d=0,p=0/0,2/0,2/3,2/0,2/0,2/3,2",
+   "NonMaxSuppression/d=1,p=1/0,2/0,2/3,2/0,2/0,2/3,2",
+   "NonMaxSuppression/d=1,p=0/0,2/0,2/3,2/0,2/0,2/3,2"
+  ],
+  "staticKey": "cf8e0cc9ff5590d1160c9780e196d0f8c3837348c000ebb7e916574c0bc70c3f,6c844196e56647eed0e1960e79722f82261867e0b7ae4e4a3d31ef570f7f5fac",
+  "inputs": [
+   {
+    "name": "boxes",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "scores",
+    "index": 1,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "max_output_boxes_per_class",
+    "index": 2,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "iou_threshold",
+    "index": 3,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "score_threshold",
+    "index": 4,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "selected_indices",
+    "index": 0,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "center_point_box",
+    "dtype": "int",
+    "value": 0
+   }
+  ],
+  "opMode": "dynamic",
+  "optionalInputMode": "gen_placeholder",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310b/bin/non_max_suppression/NonMaxSuppression_e8014c2fcd1a515e6a5c3226d4faf52f.json"
+}

@@ -1,0 +1,28 @@
+{
+  "Asinh": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "Asinh/d=0,p=0/1,2/1,2",
+        "binPath": "ascend310b/asinh/Asinh_d4eba078e7fc69d8a8ecb889ca0e3451.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Asinh/d=1,p=0/1,2/1,2",
+        "binPath": "ascend310b/asinh/Asinh_d4eba078e7fc69d8a8ecb889ca0e3451.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Asinh/d=0,p=0/0,2/0,2",
+        "binPath": "ascend310b/asinh/Asinh_d25a300a27ae4e77dd3ae19fed835630.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Asinh/d=1,p=0/0,2/0,2",
+        "binPath": "ascend310b/asinh/Asinh_d25a300a27ae4e77dd3ae19fed835630.o"
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ReplicationPad2d/d=0,p=1/1,2/3,2/1,2",
+        "ReplicationPad2d/d=0,p=0/1,2/3,2/1,2",
+        "ReplicationPad2d/d=1,p=1/1,2/3,2/1,2",
+        "ReplicationPad2d/d=1,p=0/1,2/3,2/1,2"
+      ],
+      "staticKey": "cb81ce004e3fb17e424c88cc58cf8f215178c6773ba1275a14b6199c9e0a6c80,92aedcdb1fc8aeec6aaaafc1b81a0d3edf33bec691eff9a3bc1ab05f0352f8a1",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "paddings",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "binInfo": {
+        "jsonFilePath": "ascend310b/replication_pad2d/ReplicationPad2d_64998503d8389c22f51943779298c934.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ReplicationPad2d/d=0,p=1/0,2/3,2/0,2",
+        "ReplicationPad2d/d=0,p=0/0,2/3,2/0,2",
+        "ReplicationPad2d/d=1,p=1/0,2/3,2/0,2",
+        "ReplicationPad2d/d=1,p=0/0,2/3,2/0,2"
+      ],
+      "staticKey": "c7865df4da88ba64054c3760a6b517710ddfee240d496b4000703cb2873b7e84,a98b1a1097a79068e178a68e33636efbbea68eb43fea223426ec01e431521816",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "paddings",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "binInfo": {
+        "jsonFilePath": "ascend310b/replication_pad2d/ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/execute_op.dir
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/edit_cache.dir
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/rebuild_cache.dir
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/list_install_components.dir
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/install.dir
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/install/local.dir
+/root/zpt_files/AsinhCustomSample/AsinhSample/FrameworkLaunch/AsinhCase1/build/CMakeFiles/install/strip.dir

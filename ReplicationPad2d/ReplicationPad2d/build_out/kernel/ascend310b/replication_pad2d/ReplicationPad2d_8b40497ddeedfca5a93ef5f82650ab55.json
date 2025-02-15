@@ -1,0 +1,87 @@
+{
+ "binFileName": "ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "kernelName": "ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 136,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "49d1202b2a5cd7ef976721d4d2e3a35f3009ff255530770e480a6a43a6c1cb26",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55_0"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ReplicationPad2d/d=0,p=1/0,2/3,2/0,2",
+   "ReplicationPad2d/d=0,p=0/0,2/3,2/0,2",
+   "ReplicationPad2d/d=1,p=1/0,2/3,2/0,2",
+   "ReplicationPad2d/d=1,p=0/0,2/3,2/0,2"
+  ],
+  "staticKey": "c7865df4da88ba64054c3760a6b517710ddfee240d496b4000703cb2873b7e84,a98b1a1097a79068e178a68e33636efbbea68eb43fea223426ec01e431521816",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "paddings",
+    "index": 1,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "y",
+    "index": 0,
+    "dtype": "float32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "opMode": "dynamic",
+  "optionalInputMode": "gen_placeholder",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310b/bin/replication_pad2d/ReplicationPad2d_8b40497ddeedfca5a93ef5f82650ab55.json"
+}

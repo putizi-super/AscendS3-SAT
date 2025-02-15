@@ -1,0 +1,66 @@
+{
+    "binFileName": "Asinh_d25a300a27ae4e77dd3ae19fed835630",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "Asinh_d25a300a27ae4e77dd3ae19fed835630",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 32,
+    "parameters": [],
+    "sha256": "fbfeed939813f7ed5cf685f9a95b29990532178cb6097ac6e765e72c7451411a",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "Asinh_d25a300a27ae4e77dd3ae19fed835630_0"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "Asinh/d=0,p=0/0,2/0,2",
+            "Asinh/d=1,p=0/0,2/0,2"
+        ],
+        "staticKey": "174b597c066dd43443d16f1cbf342fb69d122ca8a248e828c078b208c9bfe6f7",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}
